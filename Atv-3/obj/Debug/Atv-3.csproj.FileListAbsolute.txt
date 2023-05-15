@@ -1,0 +1,8 @@
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\bin\Debug\Atv-3.exe.config
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\bin\Debug\Atv-3.exe
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\bin\Debug\Atv-3.pdb
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\obj\Debug\Atv-3.csproj.AssemblyReference.cache
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\obj\Debug\Atv-3.csproj.SuggestedBindingRedirects.cache
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\obj\Debug\Atv-3.csproj.CoreCompileInputs.cache
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\obj\Debug\Atv-3.exe
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\Atv-3\obj\Debug\Atv-3.pdb
