@@ -20,6 +20,7 @@ namespace Atv04
             while(numIn <= numFim)
             {
                 count++;
+                //Números Inteiros e Positivos
                 // Par e Impar
                 if (numIn % 2 == 0)
                     numPar++;
