@@ -50,15 +50,31 @@ namespace atv09
                     if (expArea == "SIM")
                     {
                         expH++;
-                        somaIdH += idade;
-                        if ((idade >= 35) && (idade <= 45))
-                            hEntreIdade++;
+                        somaIdH += idade; 
                     }
+                    if ((idade >= 35) && (idade <= 45))
+                        hEntreIdade++;
+                }
+                switch (escol)
+                {
+                    case 1: //Ensino Fundamental
+
+                        break;
+                    case 2: //Ensino Médio
+
+                        break;
+                    case 3: //Ensino Superior
+
+                        break;
+                    case 4: //Pós-Graduação
+
+                        break;
                 }
                 qntIns++;
                 Console.Clear();
             } while (op != "NÃO");
             Console.WriteLine("\nA menor idade feminia é: "+menorIdF);
+            Console.WriteLine("A porcetagem de Homens entre 35 a 45 anos é de: "+(100 * hEntreIdade)/qntMas+"%");
             Console.ReadKey();
         }
     }
