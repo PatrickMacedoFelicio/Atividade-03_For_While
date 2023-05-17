@@ -11,7 +11,7 @@ namespace atv09
     {
         static void Main(string[] args)
         {
-            int qntIns = 1, qntFem = 0, qntMas = 0, expF = 0, expH = 0, hEntreIdade = 0, smIdH = 0, smIdF = 0, menorIdF = 0;
+            int qntIns = 1, qntFem = 0, qntMas = 0, expF = 0, expH = 0, hEntreIdade = 0, somaIdH = 0, somaIdF = 0, menorIdF = int.MaxValue;
             string op;
             do
             {
@@ -25,24 +25,23 @@ namespace atv09
                 int idade = int.Parse(Console.ReadLine());
                 Console.Write("\n-- Qual é o seu nivel de Escolaridade?\n[1] Ensino Fundamental\n[2] Ensino Médio\n[3] Ensino Superior\n[4] Pós-Graduação\n>> ");
                 int escol = int.Parse(Console.ReadLine());
-                Console.Write("-- Já possuí Experiencia na área?\n>> ");
+                Console.Write("\n-- Já possuí Experiencia na área?\n>> ");
                 string expArea = Console.ReadLine();
-                expArea.ToUpper();
+                expArea = expArea.ToUpper();
                 Console.Write("\n-- Deseja continuar cadastrar mais candidatos?\n>>");
                 op = Console.ReadLine();
-                op.ToUpper();
+                op = op.ToUpper();
 
                 //Avaliação
                 if (sex == 1)//Mulheres
                 {
-                    
                     qntFem++;
                     if (expArea == "SIM")
                     {
                         expF++;
-                        smIdF += idade;
+                        somaIdF += idade;
                         if (idade <= menorIdF)
-                            menorIdF += idade;
+                            menorIdF = idade;
                     }
                 }
                 if (sex == 2)//Homens
@@ -51,14 +50,14 @@ namespace atv09
                     if (expArea == "SIM")
                     {
                         expH++;
-                        smIdH += idade;
+                        somaIdH += idade;
                         if ((idade >= 35) && (idade <= 45))
                             hEntreIdade++;
                     }
                 }
                 qntIns++;
                 Console.Clear();
-            } while (op != "não");
+            } while (op != "NÃO");
             Console.WriteLine("\nA menor idade feminia é: "+menorIdF);
             Console.ReadKey();
         }
