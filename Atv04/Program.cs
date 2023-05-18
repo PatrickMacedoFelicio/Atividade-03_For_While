@@ -10,7 +10,7 @@ namespace Atv04
     {
         static void Main(string[] args)
         {
-            int intPosi = 0, numPar = 0, numImpar = 0, div3 = 0, div7 = 0, count = 0, soma = 0;
+            int intPosi = 0, numPar = 0, numImpar = 0, div3 = 0, div7 = 0, count = 0, soma = 0, numInt = 0;
             Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
             Console.Write("Informe um valor inicial:\n>> ");
             int numIn = Convert.ToInt32(Console.ReadLine());
@@ -21,6 +21,8 @@ namespace Atv04
             {
                 count++;
                 //Números Inteiros e Positivos
+                if(numIn > 0)
+                    numInt++;
                 // Par e Impar
                 if (numIn % 2 == 0)
                     numPar++;
@@ -36,8 +38,9 @@ namespace Atv04
                 numIn++;
             }
             Console.WriteLine("\n-=-=-=-=-=-=-=-=-=- Resultados -=-=-=-=-=-=-=-=-=-");
-            Console.WriteLine("Tivemos "+ numPar + " números Pares.");
-            Console.WriteLine("Tivemos "+ numImpar + " números Impares.");
+            Console.WriteLine("Tivemos "+numInt+ " números inteiros e positivos.");
+            Console.WriteLine("Tivemos "+numPar+ " números Pares.");
+            Console.WriteLine("Tivemos "+numImpar+ " números Impares.");
             Console.WriteLine(div3+" Números divisiveis por 3.");
             Console.WriteLine(div7+" Números divisiveis por 7.");
             Console.WriteLine("Somando todos os números o resultado é "+soma+", é a média é: "+(soma)/count);
