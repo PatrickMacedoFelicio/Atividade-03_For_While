@@ -6,3 +6,11 @@ C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_Wh
 C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\atv09\obj\Debug\atv09.csproj.CoreCompileInputs.cache
 C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\atv09\obj\Debug\atv09.exe
 C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\atv09\obj\Debug\atv09.pdb
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\bin\Debug\atv09.exe.config
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\bin\Debug\atv09.exe
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\bin\Debug\atv09.pdb
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\obj\Debug\atv09.csproj.AssemblyReference.cache
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\obj\Debug\atv09.csproj.SuggestedBindingRedirects.cache
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\obj\Debug\atv09.csproj.CoreCompileInputs.cache
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\obj\Debug\atv09.exe
+C:\Users\2023102060025\Documents\Clones\Atividade-03_For_While\atv09\obj\Debug\atv09.pdb

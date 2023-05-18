@@ -11,11 +11,13 @@ namespace atv09
     {
         static void Main(string[] args)
         {
-            int qntIns = 1, qntFem = 0, qntMas = 0, expF = 0, expH = 0, hEntreIdade = 0, somaIdH = 0, somaIdF = 0, menorIdF = int.MaxValue;
+            int qntIns = 0, qntFem = 0, qntMas = 0, expF = 0, expH = 0, hEntreIdade = 0, somaIdH = 0, somaIdF = 0, menorIdF = 0;
+            int ensinoFunda = 0, ensinoMedio = 0, ensinoSuper = 0, posGradu = 0;
             string op;
             do
             {
                 Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=- Empresa de Recrutamento -=-=-=-=-=-=-=-=-=-=-=-");
+                qntIns++;
                 Console.WriteLine("\t\t\tInscrição de número ["+qntIns+"]");
                 Console.Write("-- Qual é o seu nome?\n>> ");
                 string name = Console.ReadLine();
@@ -40,6 +42,8 @@ namespace atv09
                     {
                         expF++;
                         somaIdF += idade;
+                        if (menorIdF == 0)
+                            menorIdF = idade;
                         if (idade <= menorIdF)
                             menorIdF = idade;
                     }
@@ -58,23 +62,36 @@ namespace atv09
                 switch (escol)
                 {
                     case 1: //Ensino Fundamental
-
+                        ensinoFunda++;
                         break;
                     case 2: //Ensino Médio
-
+                        ensinoMedio++;
                         break;
                     case 3: //Ensino Superior
-
+                        ensinoSuper++;
                         break;
                     case 4: //Pós-Graduação
-
+                        posGradu++;
                         break;
                 }
-                qntIns++;
                 Console.Clear();
             } while (op != "NÃO");
-            Console.WriteLine("\nA menor idade feminia é: "+menorIdF);
-            Console.WriteLine("A porcetagem de Homens entre 35 a 45 anos é de: "+(100 * hEntreIdade)/qntMas+"%");
+            //Mais Validação
+            if(hEntreIdade != 0)
+                hEntreIdade = (100 * hEntreIdade) / qntMas;
+            if (expH != 0)
+                expH /= somaIdH / expH;
+            if (expF != 0)
+                expF /= somaIdF / expF;
+
+            Console.WriteLine("-=-=-=-=-=-=-=-=- Resultados Cadastros -=-=-=-=-=-=-=-=-");
+            Console.WriteLine("\t\t"+qntIns+" Cadastrados");
+            Console.WriteLine("\n-- Foram cadastrados "+qntFem+" mulheres.");
+            Console.WriteLine("-- Foram cadastrados "+qntMas+" homens.");
+            Console.WriteLine("-- A media de Homens cadastrados com experiencia é: "+expH);
+            Console.WriteLine("-- A media de Homens cadastrados com experiencia é: "+expF);
+            Console.WriteLine("-- A porcetagem de Homens entre 35 a 45 anos é de: "+ hEntreIdade + "%");
+            Console.WriteLine("-- A menor idade feminia é: "+menorIdF);
             Console.ReadKey();
         }
     }
