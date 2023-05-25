@@ -1,0 +1,15 @@
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\bin\Debug\net6.0\Atv8-5.6.exe
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\bin\Debug\net6.0\Atv8-5.6.deps.json
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\bin\Debug\net6.0\Atv8-5.6.runtimeconfig.json
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\bin\Debug\net6.0\Atv8-5.6.dll
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\bin\Debug\net6.0\Atv8-5.6.pdb
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.csproj.AssemblyReference.cache
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.AssemblyInfoInputs.cache
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.AssemblyInfo.cs
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.csproj.CoreCompileInputs.cache
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.dll
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\refint\Atv8-5.6.dll
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.pdb
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\Atv8-5.6.genruntimeconfig.cache
+C:\Users\2023102060025\Documents\Clones\Atv8-5.6\Atv8-5.6\obj\Debug\net6.0\ref\Atv8-5.6.dll
