@@ -10,7 +10,7 @@ namespace Atividade03
     {
         static void Main(string[] args)
         {
-            /*double pedro = 1.50, lucas = 1.10;
+            double pedro = 1.50, lucas = 1.10;
             int dataIg = 0, count;
             for (count = 0; lucas < pedro; count++)
             {
@@ -23,7 +23,7 @@ namespace Atividade03
             Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             Console.WriteLine(">> Pedro e Lucas terão a mesma altura em "+dataIg+" anos.");
             Console.WriteLine(">> Lucas passara Pedro em "+ count + " anos");
-            Console.ReadKey();*/
+            Console.ReadKey();
         }
     }
 }

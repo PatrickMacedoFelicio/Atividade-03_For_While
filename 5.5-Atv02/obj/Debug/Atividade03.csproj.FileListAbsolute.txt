@@ -6,3 +6,11 @@ C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade03\obj\Deb
 C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade03\obj\Debug\Atividade03.csproj.CoreCompileInputs.cache
 C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade03\obj\Debug\Atividade03.exe
 C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade03\obj\Debug\Atividade03.pdb
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\bin\Debug\Atividade03.exe.config
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\bin\Debug\Atividade03.exe
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\bin\Debug\Atividade03.pdb
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\obj\Debug\Atividade03.csproj.AssemblyReference.cache
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\obj\Debug\Atividade03.csproj.SuggestedBindingRedirects.cache
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\obj\Debug\Atividade03.csproj.CoreCompileInputs.cache
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\obj\Debug\Atividade03.exe
+C:\Users\patri\OneDrive\Documentos\Clones\Ativida-03-Clayton\Atividade-03_For_While\5.5-Atv02\obj\Debug\Atividade03.pdb
